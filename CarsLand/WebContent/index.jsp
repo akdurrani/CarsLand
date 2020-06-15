@@ -222,15 +222,10 @@
 <section id="contact-us" class="clear-float">
     <div class="container center">
         <h6 class="font-regular font-black">The Management Team</h6>
-        <!-- <div class="team">
-            <img class="team-img" src="images/ian.png">
-            <h2 class="font-black font-regular">John Ian David </h2>
-            <p class="font-light font-black">ID# 62398773</p>
-        </div> -->
+        
         <div class="team">
-            <img class="team-img" src="images/azmeh.jpeg">
-            <h2 class="font-black font-regular">Azmeh Durrani</h2>
-            <p class="font-light font-black">ID# 70173398</p>
+            <h2 class="font-black font-regular">Lorem ipsum</h2>
+            <p class="font-light font-black"># 123-456-6789/p>
         </div>
     </div>
 </section>
