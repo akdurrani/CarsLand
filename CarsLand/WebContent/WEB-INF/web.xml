@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>CarsLand</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  	<servlet>
+		<servlet-name>home_page</servlet-name> 
+		<servlet-class>com.carsland.Home</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>home_page</servlet-name>
+		<url-pattern>/home</url-pattern> 
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>product_description</servlet-name> 
+		<servlet-class>com.carsland.Descriptions</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>product_description</servlet-name>
+		<url-pattern>/product</url-pattern> 
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>recently_viewed</servlet-name> 
+		<servlet-class>com.carsland.RecentlyViewed</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>recently_viewed</servlet-name>
+		<url-pattern>/viewed</url-pattern> 
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>cart_logo</servlet-name> 
+		<servlet-class>com.carsland.CartLogo</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>cart_logo</servlet-name>
+		<url-pattern>/cartLogo</url-pattern> 
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>cart_add</servlet-name> 
+		<servlet-class>com.carsland.AddToCart</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>cart_add</servlet-name>
+		<url-pattern>/addToCart</url-pattern> 
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>cart</servlet-name> 
+		<servlet-class>com.carsland.Cart</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>cart</servlet-name>
+		<url-pattern>/cart</url-pattern> 
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>form</servlet-name> 
+		<servlet-class>com.carsland.Form</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>form</servlet-name>
+		<url-pattern>/checkout</url-pattern> 
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>city</servlet-name> 
+		<servlet-class>com.carsland.GetCity</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>city</servlet-name>
+		<url-pattern>/city</url-pattern> 
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>state</servlet-name> 
+		<servlet-class>com.carsland.GetState</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>state</servlet-name>
+		<url-pattern>/state</url-pattern> 
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>tax</servlet-name> 
+		<servlet-class>com.carsland.GetTax</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>tax</servlet-name>
+		<url-pattern>/tax</url-pattern> 
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>order</servlet-name> 
+		<servlet-class>com.carsland.SubmitOrder</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>order</servlet-name>
+		<url-pattern>/order</url-pattern> 
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>order_details</servlet-name> 
+		<servlet-class>com.carsland.OrderDetails</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+	<servlet-name>order_details</servlet-name>
+		<url-pattern>/orderDetails</url-pattern> 
+  	</servlet-mapping>
+  	
+</web-app>
