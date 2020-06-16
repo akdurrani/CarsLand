@@ -26,16 +26,17 @@ __________________________________________________________
 
 	   Description: Displays the cars we are selling in a grid layout with the car's name, color, milage, and 
 	   price. When user hovers over a car the image zooms in.
-	   When user clicks on the car, a new tab will open that will lead to a product description page that has more
-	   details about the car and provides a way to order that car.
+	   When user clicks on the car, a new tab will open that will lead to a product description page that has 
+     more details about the car and provides a way to order that car.
 
 	3. Recently Viewed Cars:
 
-	   Description: Displays the last five cars viewed by the user, but if the session is new, it does not display any cars.
+	   Description: Displays the last five cars viewed by the user, but if the session is new, it does not 
+     display any cars.
 
 	4. About
-	   Description: Displays informational text about our business and what our company does. This section says that
-	   our company sells good quality used cars and provides shipping to our customers.
+	   Description: Displays informational text about our business and what our company does. This section 
+     says that our company sells good quality used cars and provides shipping to our customers.
 
 	5. Contact Us
 	   Description: This section shows contact information.
@@ -44,17 +45,21 @@ __________________________________________________________
  2.  Product Description Page
 ___________________________________________________________
 
-    This page provides more detailed information about the car user selected in the Cars for Sales section in the home page.
-    The page displays the car's name, color, mileage, features, specifications, and price. The page has a larger image of the car and
-    a carousel component that displays additional interior images of the car. The page has a button which says "ADD TO CART". This
-    button will add the car to the cart and open a popup menu with a confirmation of successfully adding to cart and two button that say "GO TO CART" or "CONTINUE SHOPPING".
+    This page provides more detailed information about the car user selected in the Cars for Sales section 
+    in the home page. The page displays the car's name, color, mileage, features, specifications, and price. 
+    The page has a larger image of the car and a carousel component that displays additional interior images 
+    of the car. The page has a button which says "ADD TO CART". This button will add the car to the cart and 
+    open a popup menu with a confirmation of successfully adding to cart and two button that say "GO TO CART" 
+    or "CONTINUE SHOPPING".
 
     Descriptions.java, AddToCart.java
 
 
 3.  Cart Page
 ____________________________________________________________
-	This page is accessible through the nav bar or when user adds an item to cart. On this page user can see a list of all the items they have added to cart and from this page they can navigate to the checkout page where users can add their information.
+	This page is accessible through the nav bar or when user adds an item to cart. On this page user can see a 
+  list of all the items they have added to cart and from this page they can navigate to the checkout page where 
+  users can add their information.
 
 	Cart.java
 
@@ -62,24 +67,26 @@ ____________________________________________________________
 4.  Checkout Page
 ____________________________________________________________
 
-    This page is accessible through the cart page when user clicks "PROCEED TO CHECKOUT". When the page opens, on the left side is a form which allows users to fill in their name, email, phone number, shipping address, and
-    billing information such as their credit card information.
+    This page is accessible through the cart page when user clicks "PROCEED TO CHECKOUT". When the page opens, 
+    on the left side is a form which allows users to fill in their name, email, phone number, shipping address, 
+    and billing information such as their credit card information.
 
     On the right user can see the items in their cart including  quantity and delivery. 
     Next there is a delivery option for 7-day ($3000), 14-day ($2000), and a month ($1000) delivery.
-    Depending on the options user chooses (quantity and delivery) the page will calculate the total price plus sales tax.
-    The page will then display the total cost of their purchase.
+    Depending on the options user chooses (quantity and delivery) the page will calculate the total price plus 
+    sales tax. The page will then display the total cost of their purchase.
 
-    After user has completed the form and set the proper order options user can click the Checkout button to submit.
-    If the form on the left side is not fully filled out or has missing info the page will inform the user and will not submit
-    until the form is valid.
+    After user has completed the form and set the proper order options user can click the Checkout button to 
+    submit. If the form on the left side is not fully filled out or has missing info the page will inform the 
+    user and will not submit until the form is valid.
 
     Form.java, SubmitOrder.java
 
 
 5.  Order Details Page
 ____________________________________________________________
-	This page shows up after clicking the Checkout button on the Checkout page and successfully adding the user's information and order into the database. It then shows the details and summary of the order the user made.
+	This page shows up after clicking the Checkout button on the Checkout page and successfully adding the user's 
+  information and order into the database. It then shows the details and summary of the order the user made.
 
 	OrderDetails.java
 
@@ -87,9 +94,9 @@ ____________________________________________________________
 6. Content Credit 
 ____________________________________________________________
 
-    This page is accessed through the footer on the right side that says Content Credit. When user clicks on the link,
-    it will lead to a new page that lists all the sources of our content such as our cover images, car images, and the content
-    details such as car features and specifications.
+    This page is accessed through the footer on the right side that says Content Credit. When user clicks on 
+    the link, it will lead to a new page that lists all the sources of our content such as our cover images, 
+    car images, and the content details such as car features and specifications.
 
 	credit.html
 
