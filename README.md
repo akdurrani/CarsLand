@@ -42,7 +42,7 @@ __________________________________________________________
 	   Description: This section shows contact information.
 
 
- 2.  Product Description Page
+2.  Product Description Page
 ___________________________________________________________
 
     This page provides more detailed information about the car user selected in the Cars for Sales section 
@@ -57,11 +57,11 @@ ___________________________________________________________
 
 3.  Cart Page
 ____________________________________________________________
-	This page is accessible through the nav bar or when user adds an item to cart. On this page user can see a 
-  list of all the items they have added to cart and from this page they can navigate to the checkout page where 
-  users can add their information.
-
-	Cart.java
+  	This page is accessible through the nav bar or when user adds an item to cart. On this page user can see a 
+    list of all the items they have added to cart and from this page they can navigate to the checkout page where 
+    users can add their information.
+    
+    Cart.java
 
         
 4.  Checkout Page
@@ -85,10 +85,10 @@ ____________________________________________________________
 
 5.  Order Details Page
 ____________________________________________________________
-	This page shows up after clicking the Checkout button on the Checkout page and successfully adding the user's 
-  information and order into the database. It then shows the details and summary of the order the user made.
+  	This page shows up after clicking the Checkout button on the Checkout page and successfully adding the user's 
+    information and order into the database. It then shows the details and summary of the order the user made.
 
-	OrderDetails.java
+  	OrderDetails.java
 
 
 6. Content Credit 
@@ -97,8 +97,8 @@ ____________________________________________________________
     This page is accessed through the footer on the right side that says Content Credit. When user clicks on 
     the link, it will lead to a new page that lists all the sources of our content such as our cover images, 
     car images, and the content details such as car features and specifications.
-
-	credit.html
+    
+    credit.html
 
 
 REST services that allow for interaction with the order and product resources stored in the application database:  
