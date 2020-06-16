@@ -115,7 +115,8 @@ REST services that allow for interaction with the order and product resources st
         iii.  Sample Response:
               [
                 {
-                  "features": "Cruise Control, Auxiliary Audio Input, Alloy Wheels, Overhead Airbags, Side Airbags, Air Conditioning",
+                  "features": "Cruise Control, Auxiliary Audio Input, Alloy Wheels, Overhead Airbags, 
+                                Side Airbags, Air Conditioning",
                   "id": 0,
                   "image": "altima.jpg",
                   "image1": "altima1.jpg",
@@ -138,7 +139,8 @@ REST services that allow for interaction with the order and product resources st
         iii.  Sample Response:
               [
                 {
-                  "features": "Cruise Control, Auxiliary Audio Input, Alloy Wheels, Overhead Airbags, Side Airbags, Air Conditioning",
+                  "features": "Cruise Control, Auxiliary Audio Input, Alloy Wheels, Overhead Airbags, 
+                                Side Airbags, Air Conditioning",
                   "id": 0,
                   "image": "altima.jpg",
                   "image1": "altima1.jpg",
