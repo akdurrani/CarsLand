@@ -1,4 +1,4 @@
-# REST-E-Commerce-WebSite
+# REST-E-Commerce-Website
 E-commerce website created with Java Servlets and RESTful web services
 
 
