@@ -212,7 +212,7 @@ REST services that allow for interaction with the order and product resources st
     	Get tax rate
         i.    Method Type: GET
 
-        ii.   Request URL: CarsLandRest/tax
+        ii.   Request URL: CarsLandRest/tax/92612
 
         iii.  Sample Response: 9.0
 
