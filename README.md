@@ -209,7 +209,7 @@ REST services that allow for interaction with the order and product resources st
         iii.  Sample Response: ok
 
 	TaxService.java, TaxResource.java:
-    	Get tax rate
+    	Get tax rate from zipcode
         i.    Method Type: GET
 
         ii.   Request URL: CarsLandRest/tax/92612
@@ -217,10 +217,10 @@ REST services that allow for interaction with the order and product resources st
         iii.  Sample Response: 9.0
 
 	ZipService.java, ZipResource.java:
-    	Get city/state
+    	Get city/state from zipcode
         i.    Method Type: GET
 
-        ii.   Request URL: CarsLandRest/zip
+        ii.   Request URL: CarsLandRest/zip/92612
 
         iii.  Sample Response: 
               {
